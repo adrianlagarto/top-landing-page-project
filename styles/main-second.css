@@ -1,0 +1,210 @@
+body{
+  background-color: none;
+  display: flex;
+  flex-direction: column;
+  margin:0;
+  padding:0;
+  gap:2rem;
+}
+
+.first-body{
+  display:flex;
+  flex-direction: column;
+  background-color: #1F2937;
+  color:white;
+  padding:0 3rem 4rem 3rem; 
+  gap:2rem;
+}
+
+.header{
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  gap:25rem;
+}
+
+div > ul{
+  display: flex;
+  flex-direction: row;
+  gap:1rem;
+}
+
+li{
+  list-style-type: none;
+}
+
+.top-info{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-width:600px;
+  gap:5rem;
+}
+
+.title-subtext{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding:0;
+  flex-shrink:1;
+}
+
+.title{
+  display:flex;
+  justify-self: baseline;
+  flex-direction:column;
+  align-items:baseline;
+  font-size: 35px;
+  color:#E5E7EB;
+  padding:0;
+  margin:.2rem 0
+}
+
+.sub-text{
+  font-size: 15px;
+  padding:0;
+  margin:.2rem 0;
+}
+
+img{
+  max-width: 300px;;
+  max-height:400vh;
+}
+
+.first-btn{
+  background-color: #4c3ddc;
+  color: white;
+  padding:0 1rem;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+/*^ 1st body of the page css*/
+
+.second-container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap:2rem;
+  background-color:none;
+}
+
+#second-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+.boxes{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap:4rem
+}
+
+.illustartion{
+  display: flex;
+  justify-content: flex-start;
+  border-radius: 25px;
+  border: 2px solid #593dd4;
+  padding: 20px;
+  width: 75px;
+  height: 75px;
+  margin:auto;
+}
+
+.boxsubtext{
+  text-align: center;
+  font-size: 12px;
+  width:75px;
+  margin:auto;
+  padding:auto;
+}
+
+/*^ 2nd body of the page css*/
+
+.third-container{
+  background-color: #E5E7EB;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+  height:275px;
+  gap:1rem;
+}
+
+.third-box{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+  width:850px;
+  height: 300px;
+}
+
+.quote{
+  width:50%;
+  font-style:italic;
+  font-size: 20px;
+}
+
+#name{
+  text-align: right;
+  /* i cant put this text at the bottom right of the quote zzzzz*/
+}
+
+/**^ 3rd body of the page css */
+
+.fourt-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:1rem 3rem
+}
+
+.bottom-box{
+  background-color: rgb(68, 112, 209);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width:700px;
+  border-radius: 8px;
+  border: 2px solid  rgb(68, 112, 209);
+  margin:0 0 2rem 0;
+}
+
+.bottom-text{
+  display: flex;
+  flex-direction: column;
+  padding:2rem;
+  color:white;
+}
+
+#bottom-call{
+  font-weight: bolder;
+}
+
+#bottom-signup{
+  font-size: 10px;
+}
+
+#bottom-btn-signup{
+  border:1px solid white;
+  background-color: rgb(68, 112, 209);
+  border-radius: 5px;
+  color:white;
+  font-weight: bold;
+  font-size: 10px;
+  padding:.1rem .8rem;
+}
